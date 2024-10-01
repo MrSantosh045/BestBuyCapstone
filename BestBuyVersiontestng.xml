@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="BestBuy">
+    <classes>
+      <class name="testCases.CheckBottomLinksNavigation"/>
+      <class name="testCases.CheckBrokenUrlTest"/>
+      <class name="testCases.LoginInvalidTest"/>
+      <class name="testCases.SignUpPageTest"/>
+      <class name="testCases.ProductCheckoutTest"/>
+      <class name="testCases.ShopBydepartmentTest"/>
+      <class name="testCases.LoginPageTest"/>
+      <class name="testCases.ProductAddtoCartTest"/>
+      <class name="testCases.CheckMenuLinksNavigationTest"/>
+      <class name="testCases.ShopByBrandTest"/>
+      <class name="testCases.SignUpwithInvalidCredentials"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

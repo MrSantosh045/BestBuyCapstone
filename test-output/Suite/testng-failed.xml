@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BestBuy(failed)">
+    <classes>
+      <class name="testCases.CheckMenuLinksNavigationTest">
+        <methods>
+          <include name="TC004_menuLinksNavigation"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+          <include name="detail"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.CheckMenuLinksNavigationTest -->
+      <class name="testCases.ShopBydepartmentTest">
+        <methods>
+          <include name="TC008_shopByDepartment"/>
+          <include name="testDetails"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.ShopBydepartmentTest -->
+      <class name="testCases.LoginPageTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="setup"/>
+          <include name="TC002_accountLogin"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.LoginPageTest -->
+      <class name="testCases.ShopByBrandTest">
+        <methods>
+          <include name="TC006_shopByBrand"/>
+          <include name="testDetails"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.ShopByBrandTest -->
+      <class name="testCases.ProductCheckoutTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="setup"/>
+          <include name="TC007_productCheckout"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.ProductCheckoutTest -->
+      <class name="testCases.ProductAddtoCartTest">
+        <methods>
+          <include name="TC006_addToCart"/>
+          <include name="testDetails"/>
+          <include name="endReport"/>
+          <include name="detail"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.ProductAddtoCartTest -->
+      <class name="testCases.SignUpPageTest">
+        <methods>
+          <include name="TC001_signUp"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+          <include name="detail"/>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.SignUpPageTest -->
+    </classes>
+  </test> <!-- BestBuy(failed) -->
+</suite> <!-- Failed suite [Suite] -->
